@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim"; // loads tsparticles-slim
 //import { loadFull } from "tsparticles"; // loads tsparticles
@@ -22,7 +22,7 @@ const ParticlesComponent = (props) => {
       interactivity: {
         events: {
           onClick: {
-            enable: true, // enables the click event
+            enable: false, // enables the click event
             mode: "push", // adds the particles on click
           },
           onHover: {
@@ -40,6 +40,13 @@ const ParticlesComponent = (props) => {
         },
       },
       particles: {
+        number: {
+          value: 10, // nombre de particules initiales
+          density: {
+            enable: true, // répartit les particules en fonction de la taille du canvas
+            area: 800, // surface sur laquelle répartir les particules
+          },
+        },
         links: {
           enable: true, // enabling this will make particles linked together
           distance: 200, // maximum distance for linking the particles
