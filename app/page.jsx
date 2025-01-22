@@ -17,13 +17,18 @@ const Home = () => {
               Hello I'm <br /> <span className="text-accent ">Khadim DAFFE</span>
             </h1>
             <p className="max-w-[500px] mt-9 mb-9 text-white/80 ">
-              I excel at crafting elegant digital experience and I am proficient in various programming languages and technologies.{" "}
+            I'm fullstack developer, and I love to solve problems and improve things using my proficiency in IT development.
+            </p>
+            <p className="max-w-[500px] mt-9 mb-9 text-white/80 ">
+            My interests include software design and development, web development from backend to frontend, and data visualisation.
             </p>
             {/* btn and social */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Button variant="outline" size="lg" className="uppercase flex items-center gap-2">
+              <a href="./img/CV.pdf"  style={{all: "unset", display:"flex", gap:"3px"}} >
                 <span>Download CV</span>
                 <FiDownload className="text-xl" />
+              </a>
               </Button>
               <div className="mb-8 xl:mb-0">
                 <Socials
