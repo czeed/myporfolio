@@ -15,32 +15,52 @@ const Projects = [
   {
     num: "01",
     category: "frontend",
-    title: "Project ",
-    description: "lorem ipsum You need to check if your counter in viewport, react-visibility-sensor can be used for this purpose.",
-    stack: [{ name: "html5" }, { name: "css" }],
-    image: "/assets/work/thumb1.png",
-    live: "",
-    github: "",
+    title: "Association website ",
+    description: "Setting up a website for a charity association. On the website we can see a presentation of the different activities as well as a donation collection system.",
+    stack: [{ name: "html5" }, { name: "css" }, { name: "Js" }, { name: "Php" }, { name: "MySQL" } , { name: "Bootstrap" }],
+    image: "/assets/work/proj1.png",
+    live: "#",
+    github: "#",
   },
   {
     num: "02",
     category: "frontend",
-    title: "Project #2 ",
-    description: "lorem ipsum You need to check if your counter in viewport, react-visibility-sensor can be used for this purpose.",
-    stack: [{ name: "html5" }, { name: "css" }],
-    image: "/assets/work/thumb2.png",
-    live: "",
-    github: "",
+    title: "Perpetual calendar with diary",
+    description: "Implementation of an agenda with a perpetual calendar, with a system for recording and scheduling tasks, and a method for calculating future holidays",
+    stack: [{ name: "C" }, { name: "Gtk" }, { name: "Postgresql" }],
+    image: "/assets/work/proj2.png",
+    live: "#",
+    github: "#",
   },
   {
     num: "03",
     category: "frontend",
-    title: "Project #3 ",
-    description: "lorem ipsum You need to check if your counter in viewport, react-visibility-sensor can be used for this purpose.",
-    stack: [{ name: "Next.js" }, { name: "css" }],
-    image: "/assets/work/thumb3.png",
-    live: "",
-    github: "",
+    title: "Image compression system",
+    description: "This project was done as part of the Algorithms and Data Structures course curriculum. The goal was to implement an image compression system..",
+    stack: [{ name: "Java" }, { name: "BST" }, { name: "Quadtree" }],
+    image: "/assets/work/proj3.png",
+    live: "#",
+    github: "#",
+  },
+  {
+    num: "04",
+    category: "frontend",
+    title: "Dashboard implementation",
+    description: "This project was realized during my internship at Parker Hannifin in Paris. The objective was to extract data from an ERP with ODBC connectors in order to set up a set of dashboards for the production team.",
+    stack: [{ name: "Excel" }, { name: "VBA" }, { name: "SQL" }, { name: "ODBC" }, { name: "Macro" }],
+    image: "/assets/work/proj4.png",
+    live: "#",
+    github: "#",
+  },
+  {
+    num: "05",
+    category: "Iot",
+    title: "Mini weather station",
+    description: "This project was realized during an initiation to connected objects and particularly with the programming under Arduino. We were able to set up a mini weather station taking into account the temperature as well as the relative humidity.",
+    stack: [{ name: "Arduino" }, { name: "C" }, { name: "sensors" }, { name: "LM35" }, { name: "DHT11" }],
+    image: "/assets/work/proj5.jpg",
+    live: "#",
+    github: "#",
   },
 ];
 
@@ -66,7 +86,7 @@ const WorkPage = () => {
               {/* outline num */}
               <div className="text-8xl leading-none font-extrabold text-transparent text-outline">{project.num}</div>
               <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
-                {project.category} project
+                {project.title} 
               </h2>
               <p className="text-white/60"> {project.description}</p>
               <ul className="flex gap-4">
