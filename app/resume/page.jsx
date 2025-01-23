@@ -1,49 +1,33 @@
 "use client";
 import React from "react";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import {
-  FaHtml5,
-  FaCss3,
-  FaJs,
-  FaReact,
-  FaFigma,
-  FaNodeJs,
-} from "react-icons/fa";
-import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
+import { FaHtml5, FaCss3Alt, FaReact, FaNodeJs } from "react-icons/fa";
+import { SiDotnet, SiJavascript, SiTypescript, SiPostgresql, SiMongodb, SiRedux, SiFlutter, SiMicrosoftsqlserver } from "react-icons/si";
+import { DiDotnet } from "react-icons/di";
 
 const ABOUT = {
   title: "About me",
   description:
-    "attestation de attestation de sécurité sociale en cours de validité à la bonne adresse attestation de sécurité sociale en cours de validité à la bonne adresse adresse",
+    "Passionate fullstack developer with experience in .NET and React, building scalable web applications and intuitive user interfaces. I thrive in agile environments and continuously seek to enhance my skills and stay up-to-date with the latest technologies.",
   info: [
     {
       fieldName: "Name",
-      fieldValue: "czeed value",
+      fieldValue: "Khadim DAFFE",
     },
     {
       fieldName: "Phone",
-      fieldValue: "(+33) 123 345 567",
+      fieldValue: "(+33) 07 49 80 18 82",
     },
     {
       fieldName: "Experience",
-      fieldValue: "2+ Years",
+      fieldValue: "3 Years",
     },
-    {
-      fieldName: "Skype",
-      fieldValue: "cz",
-    },
-    {
-      fieldName: "Nationality",
-      fieldValue: " value",
-    },
+
     {
       fieldName: "Email",
-      fieldValue: "cczeed@azert.zer",
+      fieldValue: "etdaffe13@gmail.com",
     },
-    {
-      fieldName: "Freelance",
-      fieldValue: "available",
-    },
+   
   ],
 };
 
@@ -51,38 +35,29 @@ const EXPERIENCE = {
   icon: "/assets/resume/badge.svg",
   title: "MY experience",
   description:
-    "orem ipsum You need to check if your counter in viewport, react-visibility-sensor can be used for this purpose",
+    "Fullstack developer with nearly 3 years of experience in .NET and React, building scalable web applications and intuitive user interfaces. Passionate about clean code and best practices",
   items: [
     {
-      company: "diggers",
-      position: "Full stack Developer",
-      duration: "2022 - Present",
+      company: "Ensemble Protection Sociale (EPS, Groupe BPCE)",
+      position: " Développeur C# .NET/React ",
+      duration: "Août 2023 - Décembre 2024 ",
     },
     {
       company: "diggers",
-      position: "Full stack Developer",
-      duration: "2022 - Present",
+      position: "Développeur  React/C# .NET ",
+      duration: " Sept 2022 - Déc 2024 ",
     },
     {
-      company: "diggers",
-      position: "Full stack Developer",
-      duration: "2022 - Present",
+      company: "Parker Hannifin",
+      position: "Développeur Logiciel (stage) ",
+      duration: " Avril 2022 - Juillet 2022 ",
     },
     {
-      company: "diggers",
+      company: "Tailleur Pro ",
       position: "Full stack Developer",
-      duration: "2022 - Present",
+      duration: "2025 - Present",
     },
-    {
-      company: "diggers",
-      position: "Full stack Developer",
-      duration: "2022 - Present",
-    },
-    {
-      company: "diggers",
-      position: "Full stack Developer",
-      duration: "2022 - Present",
-    },
+   
   ],
 };
 
@@ -90,76 +65,88 @@ const EDUCATION = {
   icon: "/assets/resume/cap.svg",
   title: "MY education",
   description:
-    "orem ipsum You need to check if your counter in viewport, react-visibility-sensor can be used for this purpose",
+    "Graduated with a Master's degree in Digital Solutions and Data Management, complemented by a Bachelor's in Computer Science. Continuously learning to stay updated with the latest technologies and industry trends.",
   items: [
     {
-      institution: "diggers",
-      degree: "Ms Full stack Developer",
-      duration: "2022 - Present",
+      institution: "3IL Ingénieurs (campus IMIE) ",
+      degree: "Master MS2D ",
+      duration: "2022 - 2024",
     },
     {
-      institution: "diggers",
-      degree: "Full stack Developer",
-      duration: "2022 - Present",
+      institution: "Université de Nantes, France ",
+      degree: "Licence Informatique  ",
+      duration: "2021 - 2022",
     },
     {
-      institution: "diggers",
-      degree: "Full stack Developer",
-      duration: "2022 - Present",
+      institution: "Agile Certification",
+      degree: "Scrum Fundamental Certified",
+      duration: "2024",
     },
     {
-      institution: "diggers",
-      degree: "Full stack Developer",
-      duration: "2022 - Present",
+      institution: "Dev Certification",
+      degree: "Foundational C# with Microsoft",
+      duration: "2024",
     },
-    {
-      institution: "diggers",
-      degree: "Full stack Developer",
-      duration: "2022 - Present",
-    },
+   
   ],
 };
 
 const SKILLS = {
   title: "My skills",
   description:
-    "orem ipsum You need to check if your counter in viewport, react-visibility-sensor can be used for this purpose",
+    "Proficient in fullstack development with expertise in React, .NET, and SQL. Skilled in building responsive web applications, API integrations, and cloud deployments with a strong focus on clean code and performance optimization.",
   skillList: [
     {
       icon: <FaHtml5 />,
-      name: "html 5",
+      name: "HTML5",
     },
     {
-      icon: <FaHtml5 />,
-      name: "html 5",
+      icon: <FaCss3Alt />,
+      name: "CSS3",
     },
     {
-      icon: <FaHtml5 />,
-      name: "html 5",
+      icon: <SiDotnet />,
+      name: ".NET",
     },
     {
-      icon: <FaHtml5 />,
-      name: "html 5",
+      icon: <DiDotnet />,
+      name: "EF Core",
     },
     {
-      icon: <FaHtml5 />,
-      name: "html 5",
+      icon: <FaReact />,
+      name: "React",
     },
     {
-      icon: <FaHtml5 />,
-      name: "html 5",
+      icon: <SiJavascript />,
+      name: "JavaScript",
     },
     {
-      icon: <FaHtml5 />,
-      name: "html 5",
+      icon: <SiTypescript />,
+      name: "TypeScript",
     },
     {
-      icon: <FaHtml5 />,
-      name: "html 5",
+      icon: <SiPostgresql />,
+      name: "PostgreSQL",
     },
     {
-      icon: <FaHtml5 />,
-      name: "html 5",
+      icon: <SiMongodb />,
+      name: "MongoDB",
+    },
+    {
+      icon: <SiRedux />,
+      name: "Redux",
+    },
+    {
+      icon: <SiFlutter />,
+      name: "Flutter",
+    },
+    {
+      icon: <FaNodeJs />,
+      name: "Node.js",
+    },
+    {
+      icon: <SiMicrosoftsqlserver />,
+      name: "SQL Server",
     },
   ],
 };

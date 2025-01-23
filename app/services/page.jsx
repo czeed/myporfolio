@@ -7,27 +7,27 @@ import { motion } from "framer-motion";
 const SERVICES = [
   {
     num: "01",
-    title: "Web Development",
+    title: "Front-end Development",
     description:
-      "lorem ipsum You need to check if your counter in viewport, react-visibility-sensor can be used for this purpose.  ",
+      "Creating responsive, user-friendly web interfaces using modern frameworks such as React, Angular, and Vue.js. Ensuring optimal performance and seamless user experience across all devices.",
   },
   {
     num: "02",
-    title: "UX/UI Design",
+    title: "Back-end Development",
     description:
-      "lorem ipsum You need to check if your counter in viewport, react-visibility-sensor can be used for this purpose.  ",
+      "Building robust, scalable server-side applications using technologies like Node.js, .NET, and Python. Implementing secure APIs, database management, and cloud deployments for efficient performance.",
   },
   {
     num: "03",
-    title: "Logo Design",
+    title: "UX/UI Design",
     description:
-      "lorem ipsum You need to check if your counter in viewport, react-visibility-sensor can be used for this purpose.  ",
+      "Designing intuitive and visually appealing user interfaces by applying design thinking, wireframing, and prototyping. Focus on enhancing user experience through usability and accessibility.",
   },
   {
     num: "04",
-    title: "SEO",
+    title: "Mobile Development",
     description:
-      "lorem ipsum You need to check if your counter in viewport, react-visibility-sensor can be used for this purpose.  ",
+      "Developing cross-platform mobile applications using React Native and Flutter. Delivering high-quality apps with smooth performance and engaging user interfaces for iOS and Android.",
   },
 ];
 

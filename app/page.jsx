@@ -25,7 +25,7 @@ const Home = () => {
             {/* btn and social */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Button variant="outline" size="lg" className="uppercase flex items-center gap-2">
-              <a href="./img/CV.pdf"  style={{all: "unset", display:"flex", gap:"3px"}} >
+              <a href="./assets/cv-kdaffe.pdf"  style={{all: "unset", display:"flex", gap:"3px"}} >
                 <span>Download CV</span>
                 <FiDownload className="text-xl" />
               </a>

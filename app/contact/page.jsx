@@ -23,7 +23,7 @@ const Infos = [
   {
     icon: <FaMapMarkerAlt />,
     title: "Address",
-    description: "67 avenue Pablo Picasso, Nanterre",
+    description: "Nanterre, France",
   },
 ];
 
@@ -37,8 +37,7 @@ const Contact = () => {
             <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
               <h3 className="text-4xl text-accent">Let's work together</h3>
               <p className="text-white/60">
-                Lorem ipsum dolor sit amet consectuter Lorem ipsum dolor sit amet consectuterLorem ipsum dolor sit amet consectuterLorem ipsum dolor sit amet
-                consectuter Lorem ipsum dolor sit amet
+              Passionate about creating web solutions, I'm ready to bring my skills and energy to your projects. Let's build something great together!
               </p>
               {/* input */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
